@@ -1,0 +1,189 @@
+	*{
+		margin:0;
+		padding:0;
+		box-sizing:border-box;
+	}
+	
+	@media(min-width:320px){
+		.container{
+		width:100%;
+		margin:0 auto;		
+		}
+	.col-sec{
+	width:100%;	
+	padding: 20px 50px;
+		}
+	}
+	@media(min-width:620px){
+		.container{
+		width:100%;
+		margin:0 auto;		
+	}
+	.col-sec{
+	width:100%;	
+	padding: 20px 30px;
+	}
+	}
+	@media(min-width:1000px){
+		.container{
+		width:80%;
+		margin:0 auto;		
+	}
+	.col-sec{
+	width:50%;	
+	padding: 20px 30px;
+	}
+	.row-sec{
+	display:flex;		
+	}
+	
+	}
+	
+	
+	
+	
+	
+	
+	.img-sec{
+	    display: flex;
+    flex-direction: column;
+    gap: 15px;
+	}
+	.img-sec img{
+		width:100%;
+		border-radius:10px;
+	}
+	.img-sec2{
+	    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap:10px;
+		
+	}
+	.col-sec h3{
+	padding:10px 0;
+	}
+	.col-sec p{
+	padding:20px 0;
+	}
+	.col-sec .icon{
+    color: blue;
+    display: flex;
+    gap: 10px;
+	}
+	.col-sec .icon .gray-star{
+	color: gray;	
+	}
+	.color-sec h1{
+		padding:10px 0;
+	}
+	.circle{
+	display:flex;
+	gap:10px;
+	}
+	.circle .round-1{
+	width:25px;
+	height:25px;
+	border-radius:50%;
+	background-color:black;	
+	border:3px solid white;
+	}
+	.circle .round-2{
+	width:25px;
+	height:25px;
+	border-radius:50%;
+	background-color:blue;	
+	border:3px solid white;
+	}
+	.circle .round-3{
+	width:25px;
+	height:25px;
+	border-radius:50%;
+	background-color:gray;	
+	border:3px solid white;
+	}
+	 button{
+    margin: 20px 0;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    background-color: blue;
+	color:white;
+	font-weight:bolder;
+    border: none;
+    border-radius: 10px;		
+	}
+	.heart-icon i{
+	padding:0 10px;	
+	}
+	
+	.footer-content {
+	margin-top:40px;
+
+	}
+	.flex{
+		display:flex;
+		justify-content:space-between;
+	}
+	.footer-content .underline{
+	border-top:1px solid gray;	
+	padding:15px 0;
+	}
+	
+	.footer-content .feature{
+		
+	}
+	.dropdown{
+		display:none;
+		border:2px solid;
+		padding:10px;
+		
+	}
+	.feature:hover .dropdown{
+	display:block;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
